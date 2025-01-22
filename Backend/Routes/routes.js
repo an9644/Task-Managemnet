@@ -38,7 +38,7 @@ const taskSchema =new mongoose.Schema({
     } catch (error) {
         console.log(error);
         
-    }
+    } 
  });
  router.put('/updatetask',async(req,res)=>{
     try {

@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Home from './Pages/Home';
 import Alltasks from './Pages/Alltasks';
+import UpdateTask from './Pages/UpdateTask';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <>
     <Route path='/' element={<Home/>} />
     <Route path='/alltask' element={<Alltasks/>} />
+    <Route path='/updatetask' element={<UpdateTask/>} />
     </>
     
   ))

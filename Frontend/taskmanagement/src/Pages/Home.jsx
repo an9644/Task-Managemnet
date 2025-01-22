@@ -13,7 +13,7 @@ const Home = () => {
   const  handleSubmit=async (e)=>{
     e.preventDefault()
 
-    const newtask= (title,description,status,prioprity,createdAt)
+    const newtask= {title,description,status,prioprity,createdAt}
 
     const res= await  fetch("http://localhost:4040/addtask",{
       method:"POST",
@@ -25,20 +25,14 @@ const Home = () => {
     if(res.ok){
       alert("Task Added")
       navigate('/tasks')
-    }
-   
+    }   
   }
-
-
-
-
-
   return (
     <>
 
     <Navbar/>
 
-    <div className='bg-slate-200 mt-12 w-[30rem]'>
+    <div className='bg-slate-200 mt-12 md:w-[30rem] md:ml-44'>
     <form action="" onSubmit={handleSubmit} >
         <h1 className='text-center font-bold  text-2xl'>Add Task</h1>
         <label className='text-xl ' htmlFor="title">Task Title :</label> &nbsp;
