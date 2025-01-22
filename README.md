@@ -31,7 +31,8 @@ To get started with the *Task-Managemnet*, follow these steps:
    1. Clone the repository
       
       ```bash
-      git clone git@github.com:an9644/GetCertificate-App.git
+      git clone git@github.com:an9644/Task-Managemnet.git
+      
       ```
 🔧 Running Setup
  
