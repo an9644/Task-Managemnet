@@ -11,7 +11,9 @@ Folder Setup
 
   * Technologies used
     -MongoDB,Express.js,React.js,Node.js
+    
     -Body of application:HTML,Tailwind,JavaScript
+    
     -Version Controler :Git ,Linux
   
 
